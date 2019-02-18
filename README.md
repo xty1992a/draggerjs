@@ -1,5 +1,8 @@
 ## 这是一个用于拖拽排序的包.
 
+### DEMO
+[DEMO](https://codepen.io/xty1992a/pen/PVXRzq)
+
 ### 安装
 `npm i @redbuck/draggerjs`或者
 `yarn add @redbuck/draggerjs`
