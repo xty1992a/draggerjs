@@ -6,7 +6,9 @@
 
 ### 引入
 插件打包格式为UMD
+
 因此既可以使用`<script>`标签引入,然后直接使用`window.Dragger`
+
 也可以通过`import`或`require`的方式引入.
 > 注意,插件使用了部分ES6API,如需兼容需要添加polyfill或者配置babel-runtime等.
 
