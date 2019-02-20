@@ -1,6 +1,6 @@
 {
   "name": "@redbuck/draggerjs",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "library to drag Elements",
   "main": "lib/draggerjs.js",
   "unpkg": "lib/draggerjs.js",

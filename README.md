@@ -61,6 +61,14 @@ new Dragger(document.getElementById('wrap'))
 	},
 ```
 
+### 参数
+参数 | 类型 | 默认值
+--:|--:|--:
+el | Element | undefined
+option | Object | {dir: 'y', change: true}
+> dir可选[x, y],决定排序方向
+change表示拖拽结束是否自动换位
+
 ### 预览
 1. 运行`git clone https://github.com/xty1992a/draggerjs.git`
 2. 进入项目根目录,运行`npm i`或`yarn`

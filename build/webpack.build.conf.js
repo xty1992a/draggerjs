@@ -11,7 +11,7 @@ const showBundle = argv.includes('--report');
 
 module.exports = merge(base, {
   mode: 'production',
-  entry: root('src/package/dragger.js'),
+  entry: root('src/package/main.js'),
   output: {
 	path: path.resolve(__dirname, '../lib'),
 	filename: 'draggerjs.js',

@@ -1,9 +1,11 @@
 // 未编译API,需要引入polyfill
 import 'core-js'
-import Dragger from './package/dragger'
+import Dragger from './package/main'
 
 // 一般用法
-const dragger = new window.Dragger(document.getElementById('drag-wrap'));
+const dragger = new Dragger(document.getElementById('drag-wrap'));
+// 横向的
+const dragger1 = new window.Dragger(document.getElementById('row-drag'), {dir: 'x'});
 
 // 结合MVVM框架使用
 
